@@ -19,3 +19,6 @@ The CGPA web application is structured around three main modules:
 
 ## Gene-Pair and Gene-Hallmark Interaction Model
 ## Multi-Gene Panel Discovery
+<p align="center">
+  <img width="1000"  src="Files/multi_gene.png">
+</p>
