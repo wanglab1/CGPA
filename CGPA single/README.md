@@ -1,24 +1,20 @@
-# CGPA <img src="Files/CGPA_logo.png" align="right" alt="" width="100" />
-CGPA (Cancer Gene Prognosis Atlas) is an innovative online tool designed to enhance gene-centric biomarker discovery and validation in cancer genomics. CGPA offers comprehensive analysis capabilities, addressing the limitations of existing databases by offering multivariable and multi-gene survival models, crucial for accurate prognostic assessments. 
-## Overview
-<p align="center">
-  <img width="1000"  src="Files/Figures_1_5_Page_1.png">
-</p>
+# CGPA single
+This folder contains the CGPA single gene search at the pan-cancer level.
 
-The CGPA web application is structured around three main modules:
 
-* __Single-Gene Prognostic Discovery__: This module provides a detailed prognostic analysis of individual genes. Traditional methods like univariate regression and Kaplan-Meier plots are commonly used for their simplicity but may introduce biases due to factors such as tumor purity and patient heterogeneity. To combat this, CGPA also includes multivariable analysis to ensure a more comprehensive and robust evaluation of gene prognostic significance.
 
-* __Gene-Pair and Gene-Hallmark Interaction Model__: Recognizing that genes often do not operate in isolation, this module allows for the examination of two genes simultaneously. This approach helps to uncover how gene interactions can influence cellular pathways and responses, providing insights that are more relevant when examining potential synergistic effects.
+* __app.R__: The main Shiny function for building the single gene search Shiny app.
 
-* __Multi-Gene Panel Discovery__: To address the complexities of gene pathways in cancer genomics, this feature enables the exploration of large groups of genes. By breaking down these groups into smaller, biologically relevant subsets through subnetwork analysis, CGPA allows for a deeper understanding of each gene's role and their interactions within the pathway. This approach helps to identify specific gene subsets associated with particular cancer traits.
-## Single-Gene Prognostic Discovery
-<p align="center">
-  <img width="1000"  src="Files/Single_gene.png">
-</p>
+* __pan_cancer_dashboard.R__: Function for the "Pan-Cancer Summary" tab, including prognostic marker summary, gene expression profile, Kaplan-Meier plots with 
+      optimal cutoff, and PPI network (STRING).
+* __KM_surv.R__: Corresponds to the "Multivariable Analysis" tab for user-defined cutoffs Kaplan-Meier plots and univariable Cox regression.
+* __KM_surv_adj.R__: Corresponds to the "Multivariable Analysis" tab for covariate-adjusted Kaplan-Meier plots and multivariable Cox model.
+* __top_prog.R__: Corresponds to the "Top Prognostic Genes" under the "Multivariable Analysis" tab, for checking top prognostic genes and lncRNAs within each 
+      cancer type. Users can also explore the subnetwork for top-ranked protein-coding genes.
+* __GHI_model.R__: Corresponds to the "Gene-Hallmark Interaction" tab, for testing the interaction between the gene and hallmarks.
+   -- code_Splicing.R: Function for the "ProgSplicing" tab.
+* __top_prog_across_cancers.R__: Corresponds to the "Multivariable Analysis" tab for user-defined cutoffs Kaplan-Meier plots and univariable Cox regression.
+* __TIDE.R__ and * __TIDE_km.R__ : For the "TIDE - OS Interaction" tab under "LncRNA Exploration", using the Tumor Immune Dysfunction and Exclusion (TIDE) 
+      computational framework (Jiang et al., 2018).
+* __corr_genes.R__: For the "Coexpression Analysis" tab under "LncRNA Exploration", identifying protein-coding genes most correlated with the selected lncRNA.
 
-## Gene-Pair and Gene-Hallmark Interaction Model
-## Multi-Gene Panel Discovery
-<p align="center">
-  <img width="1000"  src="Files/multi_gene.png">
-</p>
