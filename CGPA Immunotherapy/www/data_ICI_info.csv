@@ -1,0 +1,43 @@
+Cancer Type,Dataset,Availability,Normalized data type,Treatment,# of samples,Response,Survival,Data type,Year,Study.DOI
+BLCA,GSE248167,Y,FPKM,anti-PDL1,51,Y,N,RNAseq,2024,10.1186/s12967-024-05186-8
+HNSCC,GSE159067,Y,log2CPM,PD-1/PD-L1 antibodies alone with/without anti-KIR.anti-CTLA4 antibody,102,Y,Y,Targeted RNAseq,2022,10.1016/j.ejca.2022.06.034
+KIRC,Javelin101,Y,log2TPM,anti-PDL1+VEGFRIs,354,N,Y,RNAseq,2020,10.1038/s41591-020-1044-8
+BLCA,GSE111636,Y,RMA log2,anti-PDL1,11,Y,N,Expression profiling by array,2019,NA
+NSCLC,GSE221733,Y,RUV ,anti-PD1,68,Y,Y,GeoMx Seq,2023,10.1111/imm.13646
+SKCM(Harmonized ),CheckMate 064 - EGAS00001005501,Y,TPM,anti PD-1/CTLA4,55/442,Y,N,RNAseq,2016,10.1016/S1470-2045(16)30126-7
+SKCM(Harmonized ),CheckMate 067,Y,TPM,anti PD-1/CTLA5,37/442,Y,Y,RNAseq,2021,10.1158/2326-6066.cir-20-0983 
+SKCM(Harmonized ),CheckMate038 -EGAD00001006282,Y,TPM,anti PD-1/CTLA9,121/442,Y,Y,RNAseq,2020,10.1016/j.ccell.2020.08.005
+NSCLC,GSE135222,Y,TPM,anti-PD1,27,Y,Y,RNAseq,2020,10.1186/s13148-020-00907-4
+BRCA,GSE241876,Y,TPM (use with caution),anti-PD1,19,Y,Y,RNAseq,2024,10.1158/1078-0432.CCR-23-1349
+BLCA,IMvigor210,Y,TPM,anti-PDL1,348,Y,Y,RNAseq,2017,10.1016/S0140-6736(16)32455-2
+BLCA,Kallisto,Y,TPM (use with caution),anti-PDL1,25,Y,Y,RNAseq,2017,10.1371/journal.pmed.1002309
+SKCM(Harmonized ),phs000452.v2.p1.,Y,TPM,anti PD-1/CTLA7,41/442,Y,Y,Expression profiling by array,2015,10.1126/science.aad0095
+SKCM(Harmonized ),phs000452.v3.p1,Y,TPM,anti PD-1/CTLA8,98/442,Y,Y,RNAseq,2019,10.1038/s41591-019-0654-5
+SKCM(Harmonized ),PRJEB23709,Y,TPM,anti PD-1/CTLA6,90/442,Y,Y,RNAseq,2019,10.1016/j.ccell.2019.01.003
+COSCC,GSE179730,Y,TPM (use with caution),anti-PD1,23,N,Y,RNAseq,2021,10.1016/j.xcrm.2021.100411
+KIRC,Checkmate 010,"Supplements, pending",Pending,anti-PD1,45,Y,Y,Expression profiling by array,2020,10.3389/fimmu.2020.00896
+BRCA,GSE173839,Pending,gNormalizedSignal (log2),anti-PDL1+PARPIs,71,Y,N,Expression profiling by array,2021,10.1016/j.ccell.2021.05.009
+BRCA,GSE194040,Pending,gNormalizedSignal (log2),anti-PD1+Chemotherapy,69,Y,N,Expression profiling by array,2022,10.1016/j.ccell.2022.05.005
+HNSCC,GSE195832,Pending,FPKM,anti-PD1,28,Y,N,RNAseq,2022,10.1158/1078-0432.CCR-21-3570
+SKCM,GSE78220,Pending,FPKM,anti-PD1,27,Y,N,RNAseq,2016,10.1016/j.cell.2016.02.065
+SKCM,GSE91061,Pending,FPKM,anti-PD1,51,Y,N,RNAseq,2017,10.1016/j.cell.2017.09.028
+SKCM,GSE96619,Pending,FPKM,anti-PD1,5,Y,N,RNAseq,2017,10.1016/j.celrep.2017.04.031
+SKCM,SRP067586,Pending,FPKM,anti-CTLA4,9,Pending,Pending,RNAseq,2017,10.1158/2326-6066.CIR-16-0019
+SKCM,GSE100797,Pending,Pending,IL-2,25,Y,Y,RNAseq,2017,10.1038/s41467-017-01460-0
+SKCM,GSE115821,Pending,Pending,anti-PD1/ anti-PD1+anti-CTLA4/ anti-,14,Y,Y,RNAseq,2018,10.1038/s41591-018-0157-9
+NSCLC,GSE126044,Pending,Pending,anti-PD1,16,Y,N,RNAseq,2020,10.1038/s12276-020-00493-8
+SKCM,GSE131521,Pending,Pending,anti-PD1,17,N,Y,RNAseq,2020,10.1016/j.ijrobp.2020.01.043
+CTCL (Cutaneous T-cell lymphoma),GSE162137,Pending,Pending,anti-PD1,25,Y,N,RNAseq,2021,10.1038/s41467-021-26974-6
+EAC (esophageal adenocarcinoma),GSE165252,Pending,Pending,anti-PD1+Chemoterapy+Radiotherapy,35,Y,N,RNAseq,2021,10.1158/1078-0432.CCR-20-4443
+UVM,GSE202687,Pending,Pending,anti-PD1+anti-CTLA4,9,Y,N,RNAseq,2022,10.3390/cancers14112638
+KIRC,GSE67501,Pending,Pending,anti-PD1,11,Y,N,"	RNA oligonucleotide beads",2016,10.1158/2326-6066.CIR-16-0072
+KIRC,phs001493.v1.p1,Pending,Pending,anti-PD1/anti-PDL1/anti-PD1+anti-CTLA4,33,Y,Y,RNAseq,2018,10.1126/science.aan5951
+GC (Gastric cancer) ,PRJEB25780,Pending,Pending,anti-PD1,45,Y,N,RNAseq,2021,10.1038/s12276-021-00559-1
+HNSCC,TJ_Val,Pending,Pending,anti-PD1,20,Y,N,targeted RNAseq,2022,10.1016/j.ejca.2022.06.034
+GBM,PRJNA482620,Pending,RPKM,anti-PD1,17,Y,Y,RNAseq,2019,10.1038/s41591-019-0349-y 
+KIRC,IMmotion151,"EGA, pending",log2TPM,anti-PDL1+anti-VEGF,407,Y,Y,RNAseq,2020,10.1016/j.ccell.2020.10.011
+NSCLC,OAK,"EGA, pending",log2TPM,anti-PDL1,344,Y,Y,RNAseq,2022,10.1016/j.ccell.2022.02.002
+NSCLC,POPLAR,"EGA, pending",log2TPM,anti-PDL1,95,Y,Y,RNAseq,2022,10.1016/j.ccell.2022.02.002
+KIRC,Checkmate 025,"EGA, pending",Pending,anti-PD1,120,Y,Y,RNAseq,2015,10.1056/NEJMoa1510665
+BRCA,phs002419 ,"dbGaP, pending",pending,anti-PD1+Chemotherapy,14,Y,Y,RNAseq,2021,10.1038/s41523-021-00287-9
+KIRC,E_MTAB_3218 ,"ArrayExpress, pending",RMA log2,anti-PD1,59,Y,Y,Expression profiling by array,2020,10.1136/jitc-2020-001506
