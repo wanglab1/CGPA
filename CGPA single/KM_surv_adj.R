@@ -1,9 +1,6 @@
 library(MoffittFunctions)
 library(AdjKMCIF)
-#folder_main =  "/data/CGPA/"
-# source("F:/Projects/Kim JF/survFunc/surv_adjust/adjusted_km/adj_km_051321/4_adjusted_KM_final.R")
-# source("F:/Projects/Kim JF/survFunc/surv_adjust/adjusted_km/adj_km_051321/1_surv_prob.R")
-# source("F:/Projects/Kim JF/survFunc/surv_adjust/adjusted_km/adj_km_051321/2_adj_km.R")
+
 
 survival_adj_UI<-function(headings,output_info,bs_id,clickx,more_cox,more_inter){
   #column(12,
