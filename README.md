@@ -15,12 +15,14 @@ The CGPA web application is structured around three main modules:
 ## Single-Gene Prognostic Discovery
 <p align="center">
   <img width="1000"  src="Vignette/Single_gene.png" alt="Overview of main functions in single-gene prognostic discovery">
+  <figcaption>Overview of main functions in single-gene prognostic discovery</figcaption>
 </p>
 
 ## Gene-Pair and Gene-Hallmark Interaction Model
 ## Multi-Gene Panel Discovery
 <p align="center">
   <img width="1000"  src="Vignette/multi_gene.png">
+  <figcaption>Overview of main functions in multi-gene prognostic discovery</figcaption>
 </p>
 
 ## Immunotherapy Discovery
