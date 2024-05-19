@@ -14,7 +14,7 @@ The CGPA web application is structured around three main modules:
 * __Multi-Gene Panel Discovery__: To address the complexities of gene pathways in cancer genomics, this feature enables the exploration of large groups of genes. By breaking down these groups into smaller, biologically relevant subsets through subnetwork analysis, CGPA allows for a deeper understanding of each gene's role and their interactions within the pathway. This approach helps to identify specific gene subsets associated with particular cancer traits.
 ## Single-Gene Prognostic Discovery
 <p align="center">
-  <img width="1000"  src="Vignette/Single_gene.png">
+  <img width="1000"  src="Vignette/Single_gene.png" alt="Overview of main functions in single-gene prognostic discovery">
 </p>
 
 ## Gene-Pair and Gene-Hallmark Interaction Model
@@ -22,3 +22,6 @@ The CGPA web application is structured around three main modules:
 <p align="center">
   <img width="1000"  src="Vignette/multi_gene.png">
 </p>
+
+## Immunotherapy Discovery
+
