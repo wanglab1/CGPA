@@ -1,8 +1,8 @@
-# CGPA <img src="Files/CGPA_logo.png" align="right" alt="" width="100" />
+# CGPA <img src="Vignette/CGPA_logo.png" align="right" alt="" width="100" />
 CGPA (Cancer Gene Prognosis Atlas) is an innovative online tool designed to enhance gene-centric biomarker discovery and validation in cancer genomics. CGPA offers comprehensive analysis capabilities, addressing the limitations of existing databases by offering multivariable and multi-gene survival models, crucial for accurate prognostic assessments. 
 ## Overview
 <p align="center">
-  <img width="1000"  src="Files/Figures_1_5_Page_1.png">
+  <img width="1000"  src="Vignette/Figures_1_5_Page_1.png">
 </p>
 
 The CGPA web application is structured around three main modules:
@@ -14,11 +14,11 @@ The CGPA web application is structured around three main modules:
 * __Multi-Gene Panel Discovery__: To address the complexities of gene pathways in cancer genomics, this feature enables the exploration of large groups of genes. By breaking down these groups into smaller, biologically relevant subsets through subnetwork analysis, CGPA allows for a deeper understanding of each gene's role and their interactions within the pathway. This approach helps to identify specific gene subsets associated with particular cancer traits.
 ## Single-Gene Prognostic Discovery
 <p align="center">
-  <img width="1000"  src="Files/Single_gene.png">
+  <img width="1000"  src="Vignette/Single_gene.png">
 </p>
 
 ## Gene-Pair and Gene-Hallmark Interaction Model
 ## Multi-Gene Panel Discovery
 <p align="center">
-  <img width="1000"  src="Files/multi_gene.png">
+  <img width="1000"  src="Vignette/multi_gene.png">
 </p>
