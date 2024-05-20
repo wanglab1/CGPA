@@ -27,8 +27,7 @@ package.check <- lapply(packages, FUN = function(x) {
 
 ############################## Import useful functions #################################
 
-#folder_main = "/data/CGPA/TCGA_prognostic_app/CGPA_single"
-folder_main = "C:/Users/4467777/Desktop/TCGA_shiny/CGPA_ICI/ICI_shiny2/"
+folder_main = "/data/CGPA/TCGA_prognostic_app/CGPA_single"
 
 setwd(folder_main)
 source("pan_cancer_dashboard.R")
