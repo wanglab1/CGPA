@@ -28,8 +28,7 @@ package.check <- lapply(packages, FUN = function(x) {
   library(x, character.only = TRUE)
 })
 
-folder_main = "C:/Users/4467777/Desktop/TCGA_shiny/CGPA_dual/"
-#folder_main = "/data/CGPA/TCGA_prognostic_app/CGPA_dual/"
+folder_main = "/data/CGPA/TCGA_prognostic_app/CGPA_dual/"
 setwd(folder_main)
 source("functions.R")
 
