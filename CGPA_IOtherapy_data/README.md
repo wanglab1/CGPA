@@ -6,5 +6,5 @@ This folder contains the CGPA single gene search at the pan-cancer level.
 </p>
 
 <p align="center">
-  <img width="1000"  src="./CGPA_IOtherapy_data/ICI_data2.png">
+  <img width="1000"  src="CGPA_IOtherapy_data/ICI_data2.png">
 </p>
