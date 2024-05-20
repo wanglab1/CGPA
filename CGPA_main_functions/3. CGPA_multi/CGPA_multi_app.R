@@ -25,16 +25,13 @@ package.check <- lapply(packages, FUN = function(x) {
 
 
 ############################## Import useful functions #################################
-#folder_main = "/var/shiny-server/data/4467777/CGPA_test/"
-#folder_main =  "/data/CGPA/TCGA_prognostic_app/"
-folder_main = "C:/Users/4467777/Desktop/TCGA_shiny/cgpa_multi_031322/"
+
 #folder_main = dirname(getSourceEditorContext()$path)
 #setwd(folder_main)
 source(paste0(folder_main,"functions.R"))
 genesets_pca = fread("www/genesets_pca.csv")
 options(shiny.maxRequestSize = 500*1024^2)  # 500MB in bytes
 
-#setwd("C:/Users/4467777/Desktop/TCGA_shiny/cgpa_multi_031322/") ## remove this line in server
 
 # light = bs_theme(version = 4, bootswatch = "cosmo", bg="#E3E3E3",fg = "black",warning = "#FFD300") %>%
 #     bs_add_rules(sass::sass_file("www/style/style_light.scss"))
