@@ -83,5 +83,8 @@ The "SUBNETWORK" tab utilizes "EGAnet" to dissect the gene group, with the resul
 ### Multi-gene Correlation
 The "MULTI-GENE CORRELATION" feature includes a correlation network, PCA loading plot, and Spearman correlogram. These tools collectively display the pairwise correlations between genes.
 
+### Custom Portal
+For the "Custom Portal", users have the flexibility to upload their own datasets for genesets exploration.
+
 ## Immunotherapy Discovery
 The CGPA provides a platform for gene prognostic exploration in immunotherapy datasets. It includes all publicly available datasets, enabling users to investigate single genes, gene pairs, and gene sets. The app supports detailed survival analysis and is continually updated to incorporate new data, ensuring comprehensive resources for researchers in the field of immunotherapy.
