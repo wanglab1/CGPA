@@ -1,4 +1,4 @@
-# CGPA single
+# CGPA IOtherapy data info
 This folder contains the CGPA single gene search at the pan-cancer level.
 
 <p align="center">
