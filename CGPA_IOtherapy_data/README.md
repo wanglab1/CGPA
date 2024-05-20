@@ -2,9 +2,9 @@
 This folder contains the CGPA single gene search at the pan-cancer level.
 
 <p align="center">
-  <img width="1000"  src="ICI_data1.png">
+  <img width="1000"  src="misc/ICI_data1.png">
 </p>
 
 <p align="center">
-  <img width="1000"  src="ICI_data2.png">
+  <img width="1000"  src="misc/ICI_data2.png">
 </p>
