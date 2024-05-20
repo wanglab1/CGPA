@@ -13,7 +13,7 @@ The CGPA web application is structured around three main modules:
 
 * __Multi-Gene Panel Discovery__: To address the complexities of gene pathways in cancer genomics, this feature enables the exploration of large groups of genes. By breaking down these groups into smaller, biologically relevant subsets through subnetwork analysis, CGPA allows for a deeper understanding of each gene's role and their interactions within the pathway. This approach helps to identify specific gene subsets associated with particular cancer traits.
 
-* __Immunotherapy Discovery__: The CGPA offers prognostic insights for single genes, gene pairs, and gene sets in immunotherapy datasets. Currently, we provide 43 datasets, with 15 of them containing survival information, and we are working on expanding the resources further.
+* __Immunotherapy Datasets__: The CGPA offers comprehensive gene prognostic exploration in immunotherapy datasets. The app includes all publicly available immunotherapy datasets, allowing users to analyze single genes, gene pairs, and gene sets. This resource is continuously updated to include new datasets and improve the breadth and depth of the available data for research.
 ## Single-Gene Prognostic Discovery
 <p align="center">
   <img width="1000"  src="Misc/Single_gene.png" alt="Overview of main functions in single-gene prognostic discovery">
@@ -40,7 +40,9 @@ We offer a __gene-hallmark Cox interaction model__ to evaluate the interaction b
    - GHI partial model: Hazard ~ a x Gene + c x Gene x Hallmark
 
 ### ProgSplicing
-We offer __prognostic splicing__ insights across a broad spectrum of cancers. Our analyses draw from two databases: __SpliceSeq__ and __SplAdder__ (Zhang et al., 2022). 
+In cancer research, the same gene can show different prognostic outcomes in various tumor types, such as BTNL9 in lung adenocarcinoma (LUAD) and uterine corpus endometrial carcinoma (UCEC). These opposing results may be explained by __alternative splicing__. To address these discrepancies, we have integrated the __ProgSplicing__ function in CGPA. This feature allows users to check the prognostic direction of genes across different cancer types. 
+* Data Sources: Our analysis draws from two comprehensive splicing databases: SpliceSeq and SplAdder (Zhang et al., 2022).
+* Visualization: We use different colors to indicate the direction of prognostic results, providing a clear summary of each gene's impact across various cancer types.
 
 ### LncRNA Exploration
 * In the lncRNA exploration section, we offer additional analysis for lncRNA investigation.Feature: __"TOP PROGNOSTIC GENES ACROSS CANCERS"__, which allows users to explore common genes acorss selected cancer types.
@@ -82,4 +84,4 @@ The "SUBNETWORK" tab utilizes "EGAnet" to dissect the gene group, with the resul
 The "MULTI-GENE CORRELATION" feature includes a correlation network, PCA loading plot, and Spearman correlogram. These tools collectively display the pairwise correlations between genes.
 
 ## Immunotherapy Discovery
-The CGPA offers prognostic insights for single genes, gene pairs, and gene sets in immunotherapy datasets. Currently, we provide 43 datasets, with 15 of them containing survival information, and we are working on expanding the resources further.
+The CGPA provides a platform for gene prognostic exploration in immunotherapy datasets. It includes all publicly available datasets, enabling users to investigate single genes, gene pairs, and gene sets. The app supports detailed survival analysis and is continually updated to incorporate new data, ensuring comprehensive resources for researchers in the field of immunotherapy.
