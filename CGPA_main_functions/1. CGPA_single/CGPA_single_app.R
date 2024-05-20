@@ -1,10 +1,7 @@
 #------------------------------------------------------------------------------
 packages = c("shiny","rstudioapi","tidyverse","bslib","shinyWidgets","DT","shinycustomloader","shinyBS","fst","data.table","shinydashboard","shinydashboardPlus",
              "survival","survminer","circlize","broom","EGAnet","ComplexHeatmap","qgraph","plyr","DBI","RSQLite") # rstudioapi, not needed
-# 
-# packages = c("shiny","tidyverse","DT","data.table","heatmaply","ComplexHeatmap","qgraph","rstudioapi",
-#              "fst","survival","survminer","shinycustomloader","circlize","shinyWidgets","EGAnet","broom",
-#              "shinydashboard","shinydashboardPlus","bslib","shinyBS","igraph","MoffittFunctions","WGCNA","AdjKM.CIF","stringi")
+
 package.check <- lapply(packages, FUN = function(x) {
   if (!require(x, character.only = TRUE)) {
     # some packages must be installed in seperately
@@ -26,26 +23,20 @@ package.check <- lapply(packages, FUN = function(x) {
 
 ############################## Import useful functions #################################
 
-#folder_main = "/data/CGPA/TCGA_prognostic_app/CGPA_single"
-folder_main = "C:/Users/4467777/Desktop/TCGA_shiny/cgpa_single031222/"
+folder_main = "/data/CGPA/TCGA_prognostic_app/CGPA_single"
 
 setwd(folder_main)
-source("KM_surv.R")
 source("functions.R")
+source("Pan-cancer_summary.R")
 source("KM_surv_adj.R")
-source("pan_cancer_dashboard.R")
-source("GHI_model.R")
-source("top_prog.R")
-source("top_prog_across_cancers.R")
-source("TIDE.R")
-source("TIDE_km.R")
-source("corr_genes.R")
-
-
-#cancer_info =  fread("www/TCGA_cancer_type.csv")
-
-#setwd("C:/Users/4467777/Desktop/TCGA_shiny/cgpa_single031222/") ## remove this line in server
-
+source("Multivariable_Analysis_uni.R")
+source("Multivariable_Analysis_multi.R")
+source("Multivariable_Analysis_Top_prognostic_genes.R")
+source("Gene-hallmark_interation.R")
+source("lncRNA_top_prog_across_cancers.R")
+source("lncRNA_TIDE.R")
+source("lncRNA_TIDE_km.R")
+source("lncRNA_exploration_coexpression.R")
 
 dark = bs_theme(version = 3,bg="black",fg = "white",warning = "#FFD300" )%>%
   bs_add_rules(sass::sass_file("www/style/style.scss"))
@@ -402,7 +393,7 @@ server = function(input,output,session){
     if (!is.null(query[['geneid']])) {
       updateTextInput(session, "input_gene", "",value = toupper(query[['geneid']]))
     }
-    
+
   })
   
   
