@@ -1,5 +1,5 @@
 # CGPA IOtherapy data info
-This folder contains the CGPA single gene search at the pan-cancer level.
+Below is the enrolled ICI data info.
 
 <p align="center">
   <img width="1000"  src="misc/ICI_data1.png">
