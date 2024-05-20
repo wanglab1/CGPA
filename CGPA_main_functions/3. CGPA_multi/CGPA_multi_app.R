@@ -26,8 +26,7 @@ package.check <- lapply(packages, FUN = function(x) {
 
 ############################## Import useful functions #################################
 
-#folder_main = dirname(getSourceEditorContext()$path)
-#setwd(folder_main)
+folder_main = dirname(getSourceEditorContext()$path)
 source(paste0(folder_main,"functions.R"))
 genesets_pca = fread("www/genesets_pca.csv")
 options(shiny.maxRequestSize = 500*1024^2)  # 500MB in bytes
