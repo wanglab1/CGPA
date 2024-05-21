@@ -1,8 +1,8 @@
-# CGPA <img src="Misc/CGPA_logo.png" align="right" alt="" width="100" />
+# CGPA <img src="misc/CGPA_logo.png" align="right" alt="" width="100" />
 CGPA (Cancer Gene Prognosis Atlas) is an innovative online tool designed to enhance gene-centric biomarker discovery and validation in cancer genomics. CGPA offers comprehensive analysis capabilities, addressing the limitations of existing databases by offering multivariable and multi-gene survival models, crucial for accurate prognostic assessments. 
 ## Overview
 <p align="center">
-  <img width="1000"  src="Misc/Figures_1_5_Page_1.png">
+  <img width="1000"  src="misc/Figures_1_5_Page_1.png">
 </p>
 
 The CGPA web application is structured around three main modules:
@@ -16,7 +16,7 @@ The CGPA web application is structured around three main modules:
 * __Immunotherapy Datasets__: The CGPA offers comprehensive gene prognostic exploration in immunotherapy datasets. The app includes all publicly available immunotherapy datasets, allowing users to analyze single genes, gene pairs, and gene sets. This resource is continuously updated to include new datasets and improve the breadth and depth of the available data for research.
 ## Single-Gene Prognostic Discovery
 <p align="center">
-  <img width="1000"  src="Misc/Single_gene.png" alt="Overview of main functions in single-gene prognostic discovery">
+  <img width="1000"  src="misc/Single_gene.png" alt="Overview of main functions in single-gene prognostic discovery">
   <figcaption>Overview of main functions in single-gene prognostic discovery</figcaption>
 </p>
 
@@ -64,7 +64,7 @@ CGPA for Gene-Pair Discovery is primarily designed for conducting survival analy
 
 ## Multi-Gene Panel Discovery
 <p align="center">
-  <img width="1000"  src="Misc/multi_gene.png">
+  <img width="1000"  src="misc/multi_gene.png">
   <figcaption>Overview of main functions in multi-gene prognostic discovery</figcaption>
 </p>
 
