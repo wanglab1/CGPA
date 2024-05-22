@@ -8,7 +8,7 @@ library(RSQLite)
 #-------------------------------------------------------------------------------
 # Process data, process splseq, combine all spliceseq the cancer type together
 #-------------------------------------------------------------------------------
-file_folder = "/home/4467777/CGPA_2024/oncosplicing/splseq/"
+file_folder = "/CGPA_single/oncosplicing/splseq/"
 
 
 sub_func = function(input_file){
