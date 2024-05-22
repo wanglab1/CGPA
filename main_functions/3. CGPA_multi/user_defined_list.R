@@ -1,4 +1,4 @@
-folder_main = "C:/Users/4467777/Desktop/TCGA_shiny/cgpa_multi_031322/"
+folder_main = "CGPA_multi/"
 
 options(shiny.maxRequestSize = 500*1024^2)  # 500MB in bytes
 
