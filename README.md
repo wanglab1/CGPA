@@ -20,7 +20,7 @@ The CGPA web application is structured around four main modules:
   <figcaption>Overview of main functions in single-gene prognostic discovery</figcaption>
 </p>
 
-CGPA Single-Gene Prognostic Discovery include a range of key functionalities, including __Pan-cancer Summary__, __Multivariable Analysis__, __Gene-Hallmark Interaction__, and the __LncRNA Toolbox__.
+CGPA Single-Gene Prognostic Discovery include a range of key functionalities, including __Pan-cancer Summary__, __Multivariable Analysis__, __Gene-Hallmark Interaction__, __ProgSplicing__, and the __LncRNA Toolbox__.
 ### Pan-Cancer Summary
 * The __Pan-cancer Summary feature__ presents a forest plot for the univariable Cox model, focusing on the inputted gene in relation to Overall Survival (OS) and Progression-Free Interval (PFI).
 * The __Gene Expression Profile__ section displays the median expression value of the gene across various cancer types. In this visualization, blue represents normal samples, while orange indicates tumor samples.
