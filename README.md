@@ -5,7 +5,7 @@
   <img width="1000"  src="misc/Figures_1_5_Page_1.png">
 </p>
 
-The CGPA web application is structured around three main modules:
+The CGPA web application is structured around four main modules:
 
 * __Single-Gene Prognostic Discovery__: This module provides a detailed prognostic analysis of individual genes. Traditional methods like univariate regression and Kaplan-Meier plots are commonly used for their simplicity but may introduce biases due to factors such as tumor purity and patient heterogeneity. To combat this, CGPA also includes multivariable analysis to ensure a more comprehensive and robust evaluation of gene prognostic significance.
 
