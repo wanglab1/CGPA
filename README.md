@@ -45,7 +45,7 @@ In cancer research, the same gene can show different prognostic outcomes in vari
 * Visualization: We use different colors to indicate the direction of prognostic results, providing a clear summary of each gene's impact across various cancer types.
 
 ### LncRNA Exploration
-* In the lncRNA exploration section, we offer additional analysis for lncRNA investigation.Feature: __"TOP PROGNOSTIC GENES ACROSS CANCERS"__, which allows users to explore common genes acorss selected cancer types.
+* In the lncRNA exploration section, we offer additional analysis for lncRNA investigation. Feature: __"TOP PROGNOSTIC GENES ACROSS CANCERS"__, which allows users to explore common genes acorss selected cancer types.
 *  Interaction-based multivariable analysis was conducted using the __Tumor Immune Dysfunction and Exclusion (TIDE)__ computational framework (Jiang et al., 2018).
    - The TIDE test involves multivariable Cox-PH regression to assess the interaction between gene expression and tumor CTL levels.
    - The regression model used is Hazard ~ a×CTL + b×lncRNA + c×CTL×V, based on Cox-PH regression.
